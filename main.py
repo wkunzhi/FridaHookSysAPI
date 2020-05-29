@@ -46,6 +46,7 @@ class HookManager:
 
 
 if __name__ == '__main__':
+    os.system("adb forward tcp:27042 tcp:27042")
     # 启动方法1（命令行启动）：
     # cmd = sys.argv[1] if len(sys.argv) == 2 else exit()
 
